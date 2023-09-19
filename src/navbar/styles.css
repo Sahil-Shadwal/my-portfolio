@@ -1,0 +1,149 @@
+/* Custom styles for your React previews here */
+/* body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+} */
+
+body, html {
+     /* Set the height of the body and html to 100% */
+    margin: 2vh 0 5vh 0; /* Remove default margin */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: #1a1d23;
+  border-radius: 8px;
+  width: fit-content;
+  border: 1px solid #2b303b;
+  gap: 32px;
+}
+.wrapper2 {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #1a1d23;
+    border-radius: 8px;
+    width: fit-content;
+    border: 1px solid #2b303b;
+    gap: 32px;
+  }
+
+.tab {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  outline: none;
+}
+
+.tab span {
+  position: absolute;
+  left: 4px;
+  right: 0;
+  top: 6px;
+  bottom: 0;
+  z-index: 2;
+  user-select: none;
+  font-size: 1rem;
+  color: #e8e8fd;
+}
+
+.tab.focused .highlight {
+  position: absolute;
+  bottom: -2px;
+  left: -10px;
+  right: 0;
+  width: 140%;
+  height: 110%;
+  background: #23272f;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.tab.selected .underline {
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  right: 0;
+  height: 4px;
+  background: #5686f5;
+  border-radius: 8px;
+  z-index: 1;
+}
+/* Wrapper Styles */
+ul.wrapper {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: #1A1D23;
+  border-radius: 8px;
+  width: fit-content;
+  border: 1px solid #2B303B;
+  gap: 32px;
+}
+ul.wrapper2 {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #F0F0F0;
+    border-radius: 8px;
+    width: fit-content;
+    border: 1px solid #F1EFEF;
+    gap: 32px;
+  }
+
+/* Tab Styles */
+li.tab {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  outline: none;
+}
+
+li.tab span {
+  position: absolute;
+  left: 4px;
+  right: 0;
+  top: 6px;
+  bottom: 0;
+  z-index: 2;
+  user-select: none;
+  font-size: 1rem;
+  color: #E8E8FD;
+}
+.shadwal{
+    position: absolute;
+    left: 4px;
+    right: 0;
+    top: 6px;
+    bottom: 0;
+    z-index: 1;
+    user-select: none;
+    font-size: 1rem;
+    color: #0f0f11;
+
+}

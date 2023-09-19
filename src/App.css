@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+/* WebKit Scrollbar (Chrome, Safari) */
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styles for the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #9093cb; /* Color of the track */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styles for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #5b66c0; /* Color of the thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Styles for the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
 }
 
-.App-link {
-  color: #61dafb;
+/* Styles for the scrollbar corner (optional) */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; /* Color of the scrollbar corner (optional) */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App{
+  display: grid;
+  justify-items:center;
+  align-items:center;
 }
